@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edward Salonik | Full-Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ES</a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="skills.html" class="nav-link">Skills</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="experience.html" class="nav-link">Experience</a>
+                <a href="contact.html" class="nav-link cta-button">Contact</a>
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">Edward Salonik</span>
+                <span class="title-line typing-animation">Full-Stack Developer</span>
+            </h1>
+            <p class="hero-subtitle">Creating digital experiences that bridge design and technology</p>
+            <div class="hero-buttons">
+                <a href="projects.html" class="primary-button">View Projects</a>
+                <a href="contact.html" class="secondary-button">Get In Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Explore More</span>
+            <div class="arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="preview-section">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <p class="section-subtitle">A brief introduction</p>
+        </div>
+        <div class="preview-content">
+            <div class="preview-image">
+                <!-- You can add your image here -->
+                <img src="images/web photo.jpg" alt="Edward Salonik" loading="lazy">
+            </div>
+            <div class="preview-text">
+                <p>Software engineer with expertise in full-stack development and professional design skills. Passionate about creating seamless digital experiences from concept to deployment.</p>
+                <a href="about.html" class="read-more">Read Full Bio →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Preview -->
+    <section class="preview-section">
+        <div class="section-header">
+            <h2>Technical Skills</h2>
+            <p class="section-subtitle">My core competencies</p>
+        </div>
+        <div class="skills-preview">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-tags">
+                    <span>React</span>
+                    <span>JavaScript</span>
+                    <span>HTML/CSS</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-tags">
+                    <span>Node.js</span>
+                    <span>Express</span>
+                    <span>MongoDB</span>
+                </div>
+            </div>
+            <a href="skills.html" class="read-more">View All Skills →</a>
+        </div>
+    </section>
+
+    <!-- Projects Preview -->
+    <section class="preview-section">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <p class="section-subtitle">A selection of my work</p>
+        </div>
+        <div class="projects-preview">
+            <div class="project-card">
+                <h3>E-commerce Platform</h3>
+                <p>Full-stack e-commerce solution with React and Node.js</p>
+            </div>
+            <div class="project-card">
+                <h3>Portfolio CMS</h3>
+                <p>Custom content management system for designers</p>
+            </div>
+            <a href="projects.html" class="read-more">View All Projects →</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <span class="logo">ES</span>
+                <p>Full-Stack Developer & Designer</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; <span id="year"></span> Edward Salonik. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
